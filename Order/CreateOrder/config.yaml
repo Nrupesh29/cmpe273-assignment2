@@ -1,9 +1,9 @@
 region: us-west-1
 
-function_name: InsertOrder
+function_name: CreateOrder
 handler: service.handler
 role: lambda_basic_execution
-description: Lambda function to insert order into DynamoDB
+description: Lambda function to create order into DynamoDB
 
 aws_access_key_id:        # AWS Access Key
 aws_secret_access_key:    # AWS Secret Key
