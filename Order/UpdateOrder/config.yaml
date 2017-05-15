@@ -1,0 +1,9 @@
+region: us-west-1
+
+function_name: UpdateOrder
+handler: service.handler
+role: lambda_basic_execution
+description: Lambda function to update order
+
+aws_access_key_id:        # AWS Access Key
+aws_secret_access_key:    # AWS Secret Key
