@@ -18,6 +18,6 @@ BASE_URL : https://i45r9egknb.execute-api.us-west-1.amazonaws.com/deploy
 
 | Request | Endpoint            | Request Body       | Description                                 |
 |---------|---------------------|------------------- | --------------------------------------------|
-| POST    | `/order`            |                    | Add a new Order                             |
+| POST    | `/order`            | [Sample Body](https://github.com/Nrupesh29/cmpe273-assignment2/tree/master/Order#request-body)                   | Add a new Order                             |
 | GET     | `/order/{order-id}` |                    | List order with specified **`order-id`**    |
-| PUT     | `/order/{order-id}` |                    | Update order with specified **`order-id`**  |
+| PUT     | `/order/{order-id}` | [Sample Body](https://github.com/Nrupesh29/cmpe273-assignment2/tree/master/Order#request-body-1)                   | Update order with specified **`order-id`**  |
