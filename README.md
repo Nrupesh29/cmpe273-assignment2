@@ -8,7 +8,7 @@ BASE_URL : https://i45r9egknb.execute-api.us-west-1.amazonaws.com/deploy
 
 | Request | Endpoint          | Request Body       | Description                                |
 |---------|-------------------|------------------- | -------------------------------------------|
-| POST    | `/menu`           |                    | Add a new Menu                             |
+| POST    | `/menu`           | [Sample Body](https://github.com/Nrupesh29/cmpe273-assignment2/blob/master/Menu/README.md#request-body)                   | Add a new Menu                             |
 | DELETE  | `/menu/{menu-id}` |                    | Delete menu with specified **`menu-id`**   |
 | GET     | `/menu/{menu-id}` |                    | List menu with specified **`menu-id`**     |
 | PUT     | `/menu/{menu-id}` |                    | Update menu with specified **`menu-id`**   |
