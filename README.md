@@ -1,6 +1,8 @@
 # PIZZA ORDERING SYSTEM
 
-## BASE_URL : https://i45r9egknb.execute-api.us-west-1.amazonaws.com/deploy
+<!--
+BASE_URL : https://i45r9egknb.execute-api.us-west-1.amazonaws.com/deploy
+-->
 
 ### Menu API Calls
 
